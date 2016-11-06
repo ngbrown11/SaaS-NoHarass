@@ -1,12 +1,13 @@
-# SAAS-No-Harass
-A anti harassment web service that reutnrs the likelehood of a a message being harassment.
+# SaaS-NoHarass
+An anti-harassment web service
 
+As apart of the Major League Hacking [#hackharassment](https://hackharassment.com/mlh) challenge, this api was created by a group to help combat online harassment on the internet. 
 
-# How to use
-Simply a request to http://harass-php.ywvkgndma5.us-west-2.elasticbeanstalk.com/api.php with the message you wish to test and in the POST of "message"
-and the server will respond with a value. I recommend anything greater than 30 to be most likely harassment.
+### How it works:
+The service uses an algorithm to filter through a text entry and returns a percentage for the likelihood that the message is harassment.
+The text entries are compare to the words in text files inside the package. The text files are categorized separately to contain words that can be viewed as mild, medium, or harsh. These words can be altered at the discretion of the user to tailor the strictness of the filter to their needs.
 
-# #HackHarassment
-Online harassment has become a pervasive and often vicious problem with real-life repercussions. Today‘s tech and media leaders have a collective responsibility and capability to identify solutions that can help reduce different forms of online harassment. This was a part of that.
+### Who is it for:
+The api can be used by any person hosting a website or some sort of web application that uses text entries.
 
-Read more about it here: http://www.hackharassment.com/
+For more information about online harassment you can visit [#hackharassment's](https://hackharassment.com) website.
